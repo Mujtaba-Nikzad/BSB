@@ -1,0 +1,59 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+           
+            <div class="name">
+                <div class="text">
+                <h3>HOME</h3>
+                </div>
+                <div class="score-boared">
+                    <h1 id="hnum-El">0 </h1>
+                   
+                </div>
+                <div class="border">
+                 <div class="buttons">
+                        <button class="btn" onclick="hNum1()" > +1 </button>
+                        <button class="btn" onclick="hNum2()" > +2 </button>
+                        <button class="btn" onclick="hNum3()" > +3 </button>
+                    </div>
+                     <div >
+                        <button class="save" onclick="save()" >save</button>
+                    </div></div>
+                    <div class="score">
+                    <h4 id="save-el" class="text1"> Home Score Numbers: </h4>
+                </div>
+            </div>
+             <button id="res" onclick="reset()"> Reset</button>
+            <div class="name">
+                <div class="text">
+                <h3>GUEST</h3>
+                </div>
+                <div class="score-boared">
+                    <h1 id="gnum-El1"> 0 </h1>
+                   
+                </div>
+                <div class="border">
+                 <div class="buttons">
+                        <button class="btn" onclick="gNum1()" > +1 </button>
+                        <button class="btn" onclick="gNum2()" > +2 </button>
+                        <button class="btn" onclick="gNum3()" > +3 </button>
+                    </div>
+                    
+                    <div>
+                        <button class="save" onclick="gsave()" >save</button>
+                    </div>
+                </div>
+                <div class="score">
+                    <h4 id="gsave-el" class="text1"> Guest Score Numbers: </h4>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
